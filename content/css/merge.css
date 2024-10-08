@@ -13307,11 +13307,11 @@ html {
     padding-left:2.692em
   }
   ::-moz-selection {
-    background-color:#db8100;
+    background-color:#d6872d;
     color:#000000
   }
   ::selection {
-    background-color:#db8100;
+    background-color:#d6872d;
     color:#000000
   }
   html.html_boxed {
@@ -15096,7 +15096,7 @@ html {
   #top .alternate_color .av-no-color.av-icon-style-border a.av-icon-char,
   .html_elegant-blog #top .alternate_color .blog-categories a,
   .html_elegant-blog #top .alternate_color .blog-categories a:hover {
-    color:#db8100
+    color:#d6872d
   }
   .alternate_color a:hover,
   .alternate_color h1 a:hover,
@@ -15128,24 +15128,24 @@ html {
   .alternate_color .av-colored-style .av-countdown-cell-inner,
   .responsive #top .alternate_color .av-open-submenu.av-subnav-menu > li > a:hover,
   #top .alternate_color .av-open-submenu.av-subnav-menu li > ul a:hover {
-    background-color:#db8100;
+    background-color:#d6872d;
     color:#ffffff;
     border-color:#b41c0b
   }
   #top #wrap_all .alternate_color .av-menu-button-colored > a .avia-menu-text {
-    background-color:#db8100;
+    background-color:#d6872d;
     color:#ffffff;
-    border-color:#db8100
+    border-color:#d6872d
   }
   #top #wrap_all .alternate_color .av-menu-button-colored > a .avia-menu-text:after {
     background-color:#b41c0b
   }
   #top .alternate_color .mobile_menu_toggle {
-    color:#db8100;
+    color:#d6872d;
     background:#191919
   }
   #top .alternate_color .av-menu-mobile-active .av-subnav-menu > li > a:before {
-    color:#db8100
+    color:#d6872d
   }
   #top .alternate_color .av-open-submenu.av-subnav-menu > li > a:hover:before {
     color:#191919
@@ -15229,11 +15229,11 @@ html {
   .alternate_color blockquote,
   .alternate_color .avia-bullet,
   .alternate_color .av-no-color.av-icon-style-border a.av-icon-char {
-    border-color:#db8100
+    border-color:#d6872d
   }
   .html_header_top .alternate_color .main_menu ul:first-child >li > ul,
   .html_header_top #top .alternate_color .avia_mega_div > .sub-menu {
-    border-top-color:#db8100
+    border-top-color:#d6872d
   }
   .alternate_color .breadcrumb,
   .alternate_color .breadcrumb a,
@@ -15248,12 +15248,12 @@ html {
     color:#8c8c8c
   }
   .alternate_color .av-masonry-entry:hover .av-icon-display {
-    background-color:#db8100;
+    background-color:#d6872d;
     color:#ffffff;
     border-color:#b41c0b
   }
   #top .alternate_color .av-masonry-entry.format-quote:hover .av-icon-display {
-    color:#db8100
+    color:#d6872d
   }
   .alternate_color ::-webkit-input-placeholder {
     color:#8c8c8c
@@ -15298,7 +15298,7 @@ html {
     color:#ffffff
   }
   #top .alternate_color .main_menu .menu .avia_mega_div ul .current-menu-item > a {
-    color:#db8100
+    color:#d6872d
   }
   .alternate_color .sub_menu>ul>li>a:hover,
   .alternate_color .sub_menu>div>ul>li>a:hover {
@@ -15342,7 +15342,7 @@ html {
     color:#8c8c8c
   }
   .alternate_color .av_ajax_search_image {
-    background-color:#db8100;
+    background-color:#d6872d;
     color:#191919
   }
   .alternate_color .ajax_search_excerpt {
@@ -15352,10 +15352,10 @@ html {
     color:#ffffff
   }
   .alternate_color .ajax_load {
-    background-color:#db8100
+    background-color:#d6872d
   }
   .alternate_color .av_searchsubmit_wrapper {
-    background-color:#db8100
+    background-color:#d6872d
   }
   #top .alternate_color .avia-color-theme-color {
     color:#ffffff;
@@ -15436,7 +15436,7 @@ html {
     background-color:#191919
   }
   .alternate_color .required {
-    color:#db8100
+    color:#d6872d
   }
   .alternate_color .av-masonry {
     background-color:#000000
@@ -15476,7 +15476,7 @@ html {
     background-color:#444444
   }
   #top .alternate_color .sidebar_active_tab .sidebar_tab_icon {
-    background-color:#db8100
+    background-color:#d6872d
   }
   .alternate_color .sidebar_tab:hover .sidebar_tab_icon {
     background-color:#eb5c23
@@ -15533,7 +15533,7 @@ html {
   .alternate_color .pricing-table li.avia-pricing-row,
   .alternate_color .pricing-table li.avia-heading-row,
   .alternate_color .pricing-table li.avia-pricing-row .pricing-extra {
-    background-color:#db8100;
+    background-color:#d6872d;
     color:#ffffff;
     border-color:#f85f4f
   }
@@ -15548,22 +15548,22 @@ html {
     border-color:#444444
   }
   .alternate_color .theme-color-bar .bar {
-    background:#db8100
+    background:#d6872d
   }
   .alternate_color .mejs-controls .mejs-time-rail .mejs-time-current,
   .alternate_color .mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-current,
   .alternate_color .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
   .alternate_color .button.av-sending-button,
   .alternate_color .av-striped-bar .theme-color-bar .bar {
-    background:#db8100
+    background:#d6872d
   }
   body .alternate_color .mejs-controls .mejs-time-rail .mejs-time-float {
-    background:#db8100;
+    background:#d6872d;
     color:#fff
   }
   body .alternate_color .mejs-controls .mejs-time-rail .mejs-time-float-corner {
-    border:solid 4px #db8100;
-    border-color:#db8100 transparent transparent transparent
+    border:solid 4px #d6872d;
+    border-color:#d6872d transparent transparent transparent
   }
   .alternate_color .progress {
     background-color:#111111
@@ -15572,7 +15572,7 @@ html {
   .alternate_color .av_searchform_element_results .av_ajax_search_title,
   .alternate_color.av_searchform_element_results .av_ajax_search_entry,
   .alternate_color.av_searchform_element_results .av_ajax_search_title {
-    color:#db8100
+    color:#d6872d
   }
   .alternate_color .av_searchform_element_results .ajax_search_excerpt,
   .alternate_color.av_searchform_element_results .ajax_search_excerpt {
@@ -15590,7 +15590,7 @@ html {
     border-color:#eb5c23
   }
   .alternate_color span.bbp-admin-links a {
-    color:#db8100
+    color:#d6872d
   }
   .alternate_color span.bbp-admin-links a:hover {
     color:#eb5c23
@@ -15872,7 +15872,7 @@ html {
   #top .main_color .av-no-color.av-icon-style-border a.av-icon-char,
   .html_elegant-blog #top .main_color .blog-categories a,
   .html_elegant-blog #top .main_color .blog-categories a:hover {
-    color:#db8100
+    color:#d6872d
   }
   .main_color a:hover,
   .main_color h1 a:hover,
@@ -15904,24 +15904,24 @@ html {
   .main_color .av-colored-style .av-countdown-cell-inner,
   .responsive #top .main_color .av-open-submenu.av-subnav-menu > li > a:hover,
   #top .main_color .av-open-submenu.av-subnav-menu li > ul a:hover {
-    background-color:#db8100;
+    background-color:#d6872d;
     color:#ffffff;
     border-color:#b41c0b
   }
   #top #wrap_all .main_color .av-menu-button-colored > a .avia-menu-text {
-    background-color:#db8100;
+    background-color:#d6872d;
     color:#ffffff;
-    border-color:#db8100
+    border-color:#d6872d
   }
   #top #wrap_all .main_color .av-menu-button-colored > a .avia-menu-text:after {
     background-color:#b41c0b
   }
   #top .main_color .mobile_menu_toggle {
-    color:#db8100;
+    color:#d6872d;
     background:#000000
   }
   #top .main_color .av-menu-mobile-active .av-subnav-menu > li > a:before {
-    color:#db8100
+    color:#d6872d
   }
   #top .main_color .av-open-submenu.av-subnav-menu > li > a:hover:before {
     color:#000000
@@ -16005,11 +16005,11 @@ html {
   .main_color blockquote,
   .main_color .avia-bullet,
   .main_color .av-no-color.av-icon-style-border a.av-icon-char {
-    border-color:#db8100
+    border-color:#d6872d
   }
   .html_header_top .main_color .main_menu ul:first-child >li > ul,
   .html_header_top #top .main_color .avia_mega_div > .sub-menu {
-    border-top-color:#db8100
+    border-top-color:#d6872d
   }
   .main_color .breadcrumb,
   .main_color .breadcrumb a,
@@ -16024,12 +16024,12 @@ html {
     color:#7d7d7d
   }
   .main_color .av-masonry-entry:hover .av-icon-display {
-    background-color:#db8100;
+    background-color:#d6872d;
     color:#ffffff;
     border-color:#b41c0b
   }
   #top .main_color .av-masonry-entry.format-quote:hover .av-icon-display {
-    color:#db8100
+    color:#d6872d
   }
   .main_color ::-webkit-input-placeholder {
     color:#7d7d7d
@@ -16074,7 +16074,7 @@ html {
     color:#696969
   }
   #top .main_color .main_menu .menu .avia_mega_div ul .current-menu-item > a {
-    color:#db8100
+    color:#d6872d
   }
   .main_color .sub_menu>ul>li>a:hover,
   .main_color .sub_menu>div>ul>li>a:hover {
@@ -16118,7 +16118,7 @@ html {
     color:#7d7d7d
   }
   .main_color .av_ajax_search_image {
-    background-color:#db8100;
+    background-color:#d6872d;
     color:#000000
   }
   .main_color .ajax_search_excerpt {
@@ -16128,10 +16128,10 @@ html {
     color:#7d7c7d
   }
   .main_color .ajax_load {
-    background-color:#db8100
+    background-color:#d6872d
   }
   .main_color .av_searchsubmit_wrapper {
-    background-color:#db8100
+    background-color:#d6872d
   }
   #top .main_color .avia-color-theme-color {
     color:#ffffff;
@@ -16212,7 +16212,7 @@ html {
     background-color:#000000
   }
   .main_color .required {
-    color:#db8100
+    color:#d6872d
   }
   .main_color .av-masonry {
     background-color:#e7e7e7
@@ -16252,7 +16252,7 @@ html {
     background-color:#e1e1e1
   }
   #top .main_color .sidebar_active_tab .sidebar_tab_icon {
-    background-color:#db8100
+    background-color:#d6872d
   }
   .main_color .sidebar_tab:hover .sidebar_tab_icon {
     background-color:#eb5c23
@@ -16309,7 +16309,7 @@ html {
   .main_color .pricing-table li.avia-pricing-row,
   .main_color .pricing-table li.avia-heading-row,
   .main_color .pricing-table li.avia-pricing-row .pricing-extra {
-    background-color:#db8100;
+    background-color:#d6872d;
     color:#ffffff;
     border-color:#f85f4f
   }
@@ -16324,22 +16324,22 @@ html {
     border-color:#e1e1e1
   }
   .main_color .theme-color-bar .bar {
-    background:#db8100
+    background:#d6872d
   }
   .main_color .mejs-controls .mejs-time-rail .mejs-time-current,
   .main_color .mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-current,
   .main_color .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
   .main_color .button.av-sending-button,
   .main_color .av-striped-bar .theme-color-bar .bar {
-    background:#db8100
+    background:#d6872d
   }
   body .main_color .mejs-controls .mejs-time-rail .mejs-time-float {
-    background:#db8100;
+    background:#d6872d;
     color:#fff
   }
   body .main_color .mejs-controls .mejs-time-rail .mejs-time-float-corner {
-    border:solid 4px #db8100;
-    border-color:#db8100 transparent transparent transparent
+    border:solid 4px #d6872d;
+    border-color:#d6872d transparent transparent transparent
   }
   .main_color .progress {
     background-color:#f8f8f8
@@ -16348,7 +16348,7 @@ html {
   .main_color .av_searchform_element_results .av_ajax_search_title,
   .main_color.av_searchform_element_results .av_ajax_search_entry,
   .main_color.av_searchform_element_results .av_ajax_search_title {
-    color:#db8100
+    color:#d6872d
   }
   .main_color .av_searchform_element_results .ajax_search_excerpt,
   .main_color.av_searchform_element_results .ajax_search_excerpt {
@@ -16366,7 +16366,7 @@ html {
     border-color:#eb5c23
   }
   .main_color span.bbp-admin-links a {
-    color:#db8100
+    color:#d6872d
   }
   .main_color span.bbp-admin-links a:hover {
     color:#eb5c23
@@ -16428,7 +16428,7 @@ html {
   #scroll-top-link:hover,
   #av-cookie-consent-badge:hover {
     background-color:#f8f8f8;
-    color:#db8100;
+    color:#d6872d;
     border:1px solid #e1e1e1
   }
   #top .avia-datepicker-div .ui-datepicker-month,
@@ -16445,23 +16445,23 @@ html {
   }
   #top .avia-datepicker-div a.ui-state-active,
   #top .avia-datepicker-div a.ui-state-highlight {
-    color:#db8100
+    color:#d6872d
   }
   #top .avia-datepicker-div a.ui-state-hover {
     color:#f8f8f8;
     background-color:#7d7d7d
   }
   #top .avia-datepicker-div .ui-datepicker-buttonpane button {
-    background-color:#db8100;
+    background-color:#d6872d;
     color:#ffffff;
-    border-color:#db8100
+    border-color:#d6872d
   }
   #top .av-siteloader {
     border-color:#e1e1e1;
-    border-left-color:#db8100
+    border-left-color:#d6872d
   }
   #top div.avia-popup .mfp-preloader {
-    border-left-color:#db8100
+    border-left-color:#d6872d
   }
   .av-preloader-reactive #top .av-siteloader {
     border-color:#e1e1e1
@@ -16479,7 +16479,7 @@ html {
     color:#7d7d7d
   }
   #top a.av-active-tab-title {
-    color:#db8100
+    color:#d6872d
   }
   #top .av-tab-arrow-container span {
     background-color:#000000
@@ -16710,7 +16710,7 @@ html {
   #top .header_color .av-no-color.av-icon-style-border a.av-icon-char,
   .html_elegant-blog #top .header_color .blog-categories a,
   .html_elegant-blog #top .header_color .blog-categories a:hover {
-    color:#db8100
+    color:#d6872d
   }
   .header_color a:hover,
   .header_color h1 a:hover,
@@ -16742,24 +16742,24 @@ html {
   .header_color .av-colored-style .av-countdown-cell-inner,
   .responsive #top .header_color .av-open-submenu.av-subnav-menu > li > a:hover,
   #top .header_color .av-open-submenu.av-subnav-menu li > ul a:hover {
-    background-color:#db8100;
+    background-color:#d6872d;
     color:#ffffff;
     border-color:#b41c0b
   }
   #top #wrap_all .header_color .av-menu-button-colored > a .avia-menu-text {
-    background-color:#db8100;
+    background-color:#d6872d;
     color:#ffffff;
-    border-color:#db8100
+    border-color:#d6872d
   }
   #top #wrap_all .header_color .av-menu-button-colored > a .avia-menu-text:after {
     background-color:#b41c0b
   }
   #top .header_color .mobile_menu_toggle {
-    color:#db8100;
+    color:#d6872d;
     background:#000000
   }
   #top .header_color .av-menu-mobile-active .av-subnav-menu > li > a:before {
-    color:#db8100
+    color:#d6872d
   }
   #top .header_color .av-open-submenu.av-subnav-menu > li > a:hover:before {
     color:#000000
@@ -16843,11 +16843,11 @@ html {
   .header_color blockquote,
   .header_color .avia-bullet,
   .header_color .av-no-color.av-icon-style-border a.av-icon-char {
-    border-color:#db8100
+    border-color:#d6872d
   }
   .html_header_top .header_color .main_menu ul:first-child >li > ul,
   .html_header_top #top .header_color .avia_mega_div > .sub-menu {
-    border-top-color:#db8100
+    border-top-color:#d6872d
   }
   .header_color .breadcrumb,
   .header_color .breadcrumb a,
@@ -16862,12 +16862,12 @@ html {
     color:#7d7d7d
   }
   .header_color .av-masonry-entry:hover .av-icon-display {
-    background-color:#db8100;
+    background-color:#d6872d;
     color:#ffffff;
     border-color:#b41c0b
   }
   #top .header_color .av-masonry-entry.format-quote:hover .av-icon-display {
-    color:#db8100
+    color:#d6872d
   }
   .header_color ::-webkit-input-placeholder {
     color:#7d7d7d
@@ -16912,7 +16912,7 @@ html {
     color:#ffffff
   }
   #top .header_color .main_menu .menu .avia_mega_div ul .current-menu-item > a {
-    color:#db8100
+    color:#d6872d
   }
   .header_color .sub_menu>ul>li>a:hover,
   .header_color .sub_menu>div>ul>li>a:hover {
@@ -16956,7 +16956,7 @@ html {
     color:#7d7d7d
   }
   .header_color .av_ajax_search_image {
-    background-color:#db8100;
+    background-color:#d6872d;
     color:#000000
   }
   .header_color .ajax_search_excerpt {
@@ -16966,10 +16966,10 @@ html {
     color:#ffffff
   }
   .header_color .ajax_load {
-    background-color:#db8100
+    background-color:#d6872d
   }
   .header_color .av_searchsubmit_wrapper {
-    background-color:#db8100
+    background-color:#d6872d
   }
   #top .header_color .avia-color-theme-color {
     color:#ffffff;
@@ -17050,7 +17050,7 @@ html {
     background-color:#000000
   }
   .header_color .required {
-    color:#db8100
+    color:#d6872d
   }
   .header_color .av-masonry {
     background-color:#e7e7e7
@@ -17090,7 +17090,7 @@ html {
     background-color:#e1e1e1
   }
   #top .header_color .sidebar_active_tab .sidebar_tab_icon {
-    background-color:#db8100
+    background-color:#d6872d
   }
   .header_color .sidebar_tab:hover .sidebar_tab_icon {
     background-color:#eb5c23
@@ -17147,7 +17147,7 @@ html {
   .header_color .pricing-table li.avia-pricing-row,
   .header_color .pricing-table li.avia-heading-row,
   .header_color .pricing-table li.avia-pricing-row .pricing-extra {
-    background-color:#db8100;
+    background-color:#d6872d;
     color:#ffffff;
     border-color:#f85f4f
   }
@@ -17162,22 +17162,22 @@ html {
     border-color:#e1e1e1
   }
   .header_color .theme-color-bar .bar {
-    background:#db8100
+    background:#d6872d
   }
   .header_color .mejs-controls .mejs-time-rail .mejs-time-current,
   .header_color .mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-current,
   .header_color .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
   .header_color .button.av-sending-button,
   .header_color .av-striped-bar .theme-color-bar .bar {
-    background:#db8100
+    background:#d6872d
   }
   body .header_color .mejs-controls .mejs-time-rail .mejs-time-float {
-    background:#db8100;
+    background:#d6872d;
     color:#fff
   }
   body .header_color .mejs-controls .mejs-time-rail .mejs-time-float-corner {
-    border:solid 4px #db8100;
-    border-color:#db8100 transparent transparent transparent
+    border:solid 4px #d6872d;
+    border-color:#d6872d transparent transparent transparent
   }
   .header_color .progress {
     background-color:#f8f8f8
@@ -17186,7 +17186,7 @@ html {
   .header_color .av_searchform_element_results .av_ajax_search_title,
   .header_color.av_searchform_element_results .av_ajax_search_entry,
   .header_color.av_searchform_element_results .av_ajax_search_title {
-    color:#db8100
+    color:#d6872d
   }
   .header_color .av_searchform_element_results .ajax_search_excerpt,
   .header_color.av_searchform_element_results .ajax_search_excerpt {
@@ -17204,7 +17204,7 @@ html {
     border-color:#eb5c23
   }
   .header_color span.bbp-admin-links a {
-    color:#db8100
+    color:#d6872d
   }
   .header_color span.bbp-admin-links a:hover {
     color:#eb5c23
@@ -17273,10 +17273,10 @@ html {
   .html_header_sidebar #header .av-main-nav > li:hover > a .avia-menu-text,
   .html_header_sidebar #header .av-main-nav > li.current-menu-ancestor > a .avia-menu-text,
   .html_header_sidebar #header .av-main-nav li.current-menu-item > a .avia-menu-text {
-    color:#db8100
+    color:#d6872d
   }
   #top #wrap_all .av_seperator_big_border#header .av-menu-button-colored > a {
-    background-color:#db8100
+    background-color:#d6872d
   }
   #top #wrap_all .av_seperator_big_border#header .av-menu-button-bordered > a {
     background-color:#f8f8f8
@@ -17467,14 +17467,14 @@ html {
     margin-bottom:15px
   }
   #top .all_colors strong {
-    color:#db8100
+    color:#d6872d
   }
   #top #header:hover_main_alternate {
-    background-color:#db8100
+    background-color:#d6872d
   }
   #top #header .av-main-nav > li:hover > a {
     color:#ffffff;
-    background-color:#db8100
+    background-color:#d6872d
   }
   #top #header .av-main-nav > li:hover > a .avia-menu-text,
   #top #header .av-main-nav > li:hover > a .avia-menu-subtext {
@@ -17485,8 +17485,8 @@ html {
   #top #wrap_all .avia_mega_div ul,
   #top #wrap_all .av-main-nav ul ul {
     color:#ffffff;
-    background-color:#db8100;
-    border-color:#db8100;
+    background-color:#d6872d;
+    border-color:#d6872d;
     font-size:14px
   }
   #top #wrap_all .av-main-nav ul > li:hover > a,
@@ -17494,8 +17494,8 @@ html {
   #top #wrap_all .avia_mega_div ul,
   #top #wrap_all .av-main-nav ul ul {
     color:#ffffff;
-    background-color:#db8100;
-    border-color:#db8100
+    background-color:#d6872d;
+    border-color:#d6872d
   }
   #top #wrap_all .avia-slideshow-button,
   #top .avia-button,
