@@ -1,0 +1,117 @@
+.erm-menu .menu-row .menu-row-title,
+.erm-menu .menu-column .menu-col-title,
+.erm-menu .menu-section .menu-section-title,
+.erm-menu .menu-item .menu-item-title {
+    color: #dd3333;
+    font-family: Kameron;
+}
+
+.menu-row-content .menu-item-content-desc,
+.menu-col-content .menu-item-content-desc,
+.menu-section-content .menu-item-content-desc,
+.menu-item-content-desc.menu-type-product {
+    color: #ffffff;
+    font-family: Anaheim;
+}
+
+.erm-menu .menu-row .menu-row-title {
+    font-size: 32px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+.erm-menu .menu-row .menu-row-content {
+    font-size: 30px;
+    line-height: 28px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.erm-menu .menu-column .menu-col-title {
+    font-size: 26px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.erm-menu .menu-column .menu-col-content {
+    font-size: 19px;
+    line-height: 23px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.erm-menu .menu-section .menu-section-title {
+    font-size: 33px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.erm-menu .menu-section .menu-section-content {
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 0px;
+    margin-bottom: 45px;
+}
+
+.erm-align-left .menu-item-thumb,
+.erm-align-center .menu-item-thumb img {
+    width: 145px;
+}
+
+.menu-item-thumb img {
+    border-radius: 0px;
+}
+
+.erm-menu .menu-item {
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
+
+.erm-menu .menu-item .menu-item-title {
+    font-size: 26px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.menu-item-content-desc.menu-type-product {
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: 0px;
+    margin-bottom: 17px;
+}
+
+.menu-item-prices {
+    text-align: left;
+}
+
+.menu-item-prices li {
+    line-height: 11px;
+}
+
+.menu-item-prices span {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: Allerta;
+}
+
+.erm-menu .menu-item .menu-item-tags {
+    margin-top: 0px;
+}
+
+.erm-menu .menu-item .menu-item-tags {
+    text-align: right;
+}
+
+.erm-menu .menu-item .menu-item-tags li {
+    color: #c4c4c4;
+    border-color: #c4c4c4;
+    font-size: 9px;
+    font-family: Allerta;
+}
+
+.erm-menu .menu-item .menu-item-nutrition-facts,
+.erm-menu .menu-item .menu-item-nutrition-facts .facts-main-table {
+    color: #6b005e;
+    font-size: 18px;
+    font-family: Advent Pro;
+}

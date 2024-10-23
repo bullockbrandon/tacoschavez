@@ -1,0 +1,17 @@
+@font-face {font-family: 'entypo-fontello'; font-weight: normal; font-style: normal; font-display: auto;
+src: url('https://tacoschavezhtx.com/content/theme/entypo-fontello.eot');
+src: url('https://tacoschavezhtx.com/content/theme/entypo-fontello.eot?#iefix') format('embedded-opentype'), 
+url('https://tacoschavezhtx.com/content/theme/entypo-fontello.woff') format('woff'),
+url('https://tacoschavezhtx.com/content/theme/entypo-fontello.woff2') format('woff2'),
+url('https://tacoschavezhtx.com/content/theme/entypo-fontello.ttf') format('truetype'), 
+url('https://tacoschavezhtx.com/content/theme/entypo-fontello.svg#entypo-fontello') format('svg');
+} #top .avia-font-entypo-fontello, body .avia-font-entypo-fontello, html body [data-av_iconfont='entypo-fontello']:before{ font-family: 'entypo-fontello'; }
+
+@font-face {font-family: 'flaticon-sports'; font-weight: normal; font-style: normal; font-display: auto;
+src: url('https://tacoschavezhtx.com/content/theme/flaticon-sports.eot');
+src: url('https://tacoschavezhtx.com/content/theme/flaticon-sports.eot?#iefix') format('embedded-opentype'), 
+url('https://tacoschavezhtx.com/content/theme/flaticon-sports.woff') format('woff'),
+url('https://tacoschavezhtx.com/content/theme/flaticon-sports.woff2') format('woff2'),
+url('https://tacoschavezhtx.com/content/theme/flaticon-sports.ttf') format('truetype'), 
+url('https://tacoschavezhtx.com/content/theme/flaticon-sports.svg#flaticon-sports') format('svg');
+} #top .avia-font-flaticon-sports, body .avia-font-flaticon-sports, html body [data-av_iconfont='flaticon-sports']:before{ font-family: 'flaticon-sports'; }

@@ -1,0 +1,14 @@
+#top #header_main > .container, 
+#top #header_main > .container .main_menu .av-main-nav > li > a, 
+#top #header_main #menu-item-shop .cart_dropdown_link { 
+    height: 130px; 
+    line-height: 130px; 
+}
+
+.html_top_nav_header .av-logo-container { 
+    height: 130px; 
+}
+
+.html_header_top.html_header_sticky #top #wrap_all #main { 
+    padding-top: 130px; 
+}
