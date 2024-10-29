@@ -1,0 +1,416 @@
+.erm-menu-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box; }
+.erm-column,
+.erm-columns {
+    width: 100%;
+    float: left;
+    box-sizing: border-box; }
+
+
+
+@media (min-width: 400px) {
+    .erm-menu-container {
+        width: 100%;
+        padding: 0; }
+}
+
+@media (min-width: 640px) {
+
+    .erm-menu-container {
+        width: 100%; }
+
+    .erm-column,
+    .erm-columns {
+        margin-left: 4%; }
+
+    .erm-column.col-index-1,
+    .erm-columns.col-index-1 { margin-left: 0px; }
+
+    .erm-column:first-child,
+    .erm-columns:first-child {
+        margin-left: 0; }
+
+    .one.erm-column,
+    .one.erm-columns                    { width: 4.66666666667%; }
+    .two.erm-columns                    { width: 13.3333333333%; }
+    .three.erm-columns                  { width: 22%;            }
+    .four.erm-columns                   { width: 30.6666666667%; }
+    .five.erm-columns                   { width: 39.3333333333%; }
+    .six.erm-columns                    { width: 48%;            }
+    .seven.erm-columns                  { width: 56.6666666667%; }
+    .eight.erm-columns                  { width: 65.3333333333%; }
+    .nine.erm-columns                   { width: 74.0%;          }
+    .ten.erm-columns                    { width: 82.6666666667%; }
+    .eleven.erm-columns                 { width: 91.3333333333%; }
+    .twelve.erm-columns                 { width: 100%; margin-left: 0; }
+
+    .one-third.erm-column               { width: 30.6666666667%; }
+    .two-thirds.erm-column              { width: 65.3333333333%; }
+
+    .one-half.erm-column                { width: 48%; }
+
+    /* Offsets */
+    .offset-by-one.erm-column,
+    .offset-by-one.erm-columns          { margin-left: 8.66666666667%; }
+    .offset-by-two.erm-column,
+    .offset-by-two.erm-columns          { margin-left: 17.3333333333%; }
+    .offset-by-three.erm-column,
+    .offset-by-three.erm-columns        { margin-left: 26%;            }
+    .offset-by-four.erm-column,
+    .offset-by-four.erm-columns         { margin-left: 34.6666666667%; }
+    .offset-by-five.erm-column,
+    .offset-by-five.erm-columns         { margin-left: 43.3333333333%; }
+    .offset-by-six.erm-column,
+    .offset-by-six.erm-columns          { margin-left: 52%;            }
+    .offset-by-seven.erm-column,
+    .offset-by-seven.erm-columns        { margin-left: 60.6666666667%; }
+    .offset-by-eight.erm-column,
+    .offset-by-eight.erm-columns        { margin-left: 69.3333333333%; }
+    .offset-by-nine.erm-column,
+    .offset-by-nine.erm-columns         { margin-left: 78.0%;          }
+    .offset-by-ten.erm-column,
+    .offset-by-ten.erm-columns          { margin-left: 86.6666666667%; }
+    .offset-by-eleven.erm-column,
+    .offset-by-eleven.erm-columns       { margin-left: 95.3333333333%; }
+
+    .offset-by-one-third.erm-column,
+    .offset-by-one-third.erm-columns    { margin-left: 34.6666666667%; }
+    .offset-by-two-thirds.erm-column,
+    .offset-by-two-thirds.erm-columns   { margin-left: 69.3333333333%; }
+
+    .offset-by-one-half.erm-column,
+    .offset-by-one-half.erm-columns     { margin-left: 52%; }
+
+}
+
+.u-full-width {
+    width: 100%;
+    box-sizing: border-box; }
+.u-max-full-width {
+    max-width: 100%;
+    box-sizing: border-box; }
+.u-pull-right {
+    float: right; }
+.u-pull-left {
+    float: left; }
+
+
+
+.erm-menu-container:after,
+.menu-row:after,
+.u-cf {
+    content: "";
+    display: table;
+    clear: both; }
+
+
+
+.erm-align-left .menu-item {
+    display: table;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.erm-align-left .menu-item-thumb {
+    display: table-cell; width: 150px;
+    vertical-align: top;
+}
+.erm-align-left .menu-item-thumb img { width: 100%; height: auto; }
+
+.erm-align-left .menu-item-content-wrap {
+    position: relative;
+    display: table-cell;
+    vertical-align: top;
+    padding-left: 15px;
+}
+
+
+
+.erm-align-center .menu-item {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.erm-align-center .menu-item-thumb {
+    text-align: center;
+    width: 100%;
+}
+.erm-align-center .menu-item-thumb img { width: 150px; height: auto; }
+
+.erm-align-center .menu-item-content-wrap {
+    position: relative;
+    text-align: center;
+}
+
+.erm-thumb-hide .menu-item-thumb { display: none !important; }
+
+
+
+
+
+/*-----------------------------------*/
+/* menu item pricing */
+/*-----------------------------------*/
+
+.menu-item-prices { padding: 0px; margin: 0px; list-style: none; }
+/*.erm-align-left .menu-item-prices { text-align: right; }
+.erm-align-center .menu-item-prices { text-align: center; }
+
+.menu-item-prices li {  }
+.menu-item-prices span { display: inline-block; padding-left: 10px; }
+*/
+.menu-item-prices li { line-height: 1em; }
+.menu-item-prices .price-name, .menu-item-prices .price-base { padding-right: 8px; }
+.menu-item-prices .price-bold { font-weight: bold; }
+.menu-item-prices .price-strike { text-decoration: line-through; }
+
+.erm-prices-one_line .menu-item-prices li { display: inline-block; margin-left: 7px; margin-right: 7px; }
+
+
+
+
+
+/*-----------------------------------*/
+/* menu item tags */
+/*-----------------------------------*/
+
+.menu-item-tags {
+    padding: 0px; margin: 0px; list-style: none;
+}
+.menu-item-tags li {
+    display: inline-block;
+    padding: 2px 6px; border: 1px solid #cdcdcd;
+    margin: 4px 4px 4px 0px;
+}
+
+.menu-item-tags.format-icon li {
+    padding: 0px; border: none;
+}
+
+.menu-item-tags.format-icon img { height: 30px; }
+
+
+/* menu item tags legend */
+
+.food-tags-legend {
+    padding: 0px; margin: 0px;
+    list-style: none;
+}
+
+.food-tags-legend li {
+    list-style: none;
+    padding: 0px; margin: 0px;
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+.food-tags-legend .food-tag {
+    display: flex;
+    align-items: center;
+}
+
+.food-tags-legend .food-tag img { height: 30px; }
+.food-tags-legend .food-tag .term-name {  margin-left: 3px; }
+
+
+
+
+
+
+    /* Rows dropdown */
+.row-dropdown .row-dropdown-header { cursor: pointer; }
+.row-dropdown .row-dropdown-header .menu-row-title:before {  content: '-';
+    display: inline-block;
+    width: 30px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-right: 5px;
+    line-height: 30px;
+}
+.row-dropdown.row-closed .row-dropdown-header .menu-row-title:before {  content: '+'  }
+
+
+
+
+/* Sections dropdown */
+.section-dropdown .sec-dropdown-header { cursor: pointer; }
+.section-dropdown .sec-dropdown-header .menu-section-title:before {  content: '-';
+    display: inline-block;
+    width: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-right: 5px;
+    line-height: 20px;
+}
+.section-dropdown.section-closed .sec-dropdown-header .menu-section-title:before {  content: '+'  }
+
+
+/* Row tabs */
+.menu-rows-tabs { padding: 0px; margin: 0px; list-style: none;  }
+.menu-rows-tabs li {  display: inline-block; }
+.menu-rows-tabs li a { padding: 5px 10px; }
+
+.menu-rows-tabs .tab-active { border: 1px solid #acacac; }
+.menu-rows-tab-content .menu-row { display: none; }
+.menu-rows-tab-content .menu-row.tab-content-active { display: block; }
+
+.erm-rows-vertical_tab { display: table; }
+.erm-rows-vertical_tab .menu-rows-tabs { display: table-cell; width: 200px; }
+.erm-rows-vertical_tab .menu-rows-tabs li { display: block; width: 100%; }
+.erm-rows-vertical_tab .menu-rows-tabs a { display: block; width: 100%; }
+.erm-rows-vertical_tab .menu-rows-tab-content { display: table-cell; padding-left: 20px; }
+
+/* Correct p margin */
+.erm-menu p { margin: 0px; }
+
+
+.erm-show-more-no .menuitem_more { display: none !important; }
+
+/*-----------------------------------*/
+/* Mobile style */
+/*-----------------------------------*/
+
+@media (max-width: 600px) {
+    .erm-menu-container { padding: 0px; }
+    .erm-menu .menu-item { display: block; }
+    .erm-menu .menu-item-thumb { display: block; width: 100%; }
+    .erm-menu .menu-item-content-wrap { display: block; width: 100%; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------*/
+/* popup menu item global style */
+/*-----------------------------------*/
+
+
+
+.erm_lightbox {
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: rgba(61, 61, 61, 0.8);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 95000;
+    padding-right: 17px;
+    padding-left: 17px;
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.erm_lightbox_in {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.erm_lightbox_inin {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    width: 600px;
+    margin: 40px auto;
+}
+
+
+.mfp-content { max-width: 650px !important; }
+
+.erm_lightbox_content {
+    width: 100%;
+    margin: 60px auto;
+    /* max-width: 650px; */
+    position: relative;
+}
+
+.erm-popup-close {
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    width: 40px;
+    height: 40px;
+    background: #2d2d2d;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: rgba(255,255,255,.6);
+    box-shadow: none !important;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+.erm-popup-close:hover { color: white; }
+
+.erm-popup-menu .menu-item {
+    background: white;
+    border-radius: 10px;
+}
+
+.erm-popup-head img { width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.erm-popup-content {
+    padding: 20px 20px 0px 20px;
+}
+.menu-item-nutrition-facts {
+    border-top: 1px dotted #ccc;
+    padding: 20px;
+    margin-top: 10px;
+}
+.menu-item-nutrition-facts .facts-main-table { width: 100%; margin: 0px; padding: 0px; }
+.menu-item-nutrition-facts .facts-main-table td { vertical-align: top;  }
+.menu-item-nutrition-facts .facts-sub-table { width: auto; margin: 0px; }
+.menu-item-nutrition-facts table,
+.menu-item-nutrition-facts table td {
+    border: none;
+    padding: 0px 10px 0px 0px;
+}
+.menu-item-nutrition-facts tr.sub-fact td:first-child { padding-left: 20px; }
+
+.erm-popup-footer { border-top: 1px solid #ccc; }
+.erm-menu-share { padding: 0px; margin-left: 5px; }
+.erm-menu-share li { display: inline-block; }
+.erm-menu-share li a { display: inline-block;
+    width: 40px; height: 40px; text-align: center; line-height: 40px; border-right: 1px solid #ccc;
+    font-size: 24px; color: #bbb; opacity: 0.7; transition: opacity 0.3s;
+}
+.erm-menu-share li a:hover {
+    opacity: 1.0;
+    transition: opacity 0.3s;
+}
+
+.erm-popup-content .menuitem_more { display: none; }
+.erm-popup-content .menu-item-tags { margin-bottom: 15px; }
+
+
+/*-----------------------------------*/
+/* Adjust erm_menu_item single page */
+/*-----------------------------------*/
+
+.erm_menu_item .featured-img.wp-post-image { width: 100%; }
+.menu-item-single .erm-popup-footer { border-top: none; margin-top: 40px; }
+.menu-item-single .erm-menu-share li a { border-right: none; }
+.menu-item-single .facts-main-table,
+.menu-item-single .facts-sub-table,
+.menu-item-single .facts-main-table .sub-table { border: none; }
+.menu-item-single .erm-menu-share li { border: 1px solid #ccc; }
