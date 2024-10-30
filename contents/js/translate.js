@@ -101,11 +101,11 @@
 
         // todo: optimize
         widget_css += '.gt_float_switcher .gt_options{position:relative;z-index:777;white-space:nowrap;float:'+float_switcher_open_direction+';max-width:'+max_width+';overflow:hidden;transform:translateX(-'+window.innerWidth+'px);opacity:0;cursor:pointer;transition:all .8s cubic-bezier(.3,1.1,.4,1.1)}';
-        widget_css += '.gt_float_switcher .gt_options a{display:inline-block;text-decoration:none;padding:'+(flag_style=='3d'?6:10)+'px 15px;color:#444;transition:color .4s linear}';
+        widget_css += '.gt_float_switcher .gt_options a{display:inline-block;text-decoration:none;padding:'+(flag_style=='3d'?6:10)+'px 15px;color:#7d7d7d;transition:color .4s linear}';
         widget_css += '.gt_float_switcher .gt-selected{position:relative;z-index:888;background-color:#000000;float:left;cursor:pointer;text-transform:uppercase;overflow:hidden;'+(switcher_horizontal_position != 'inline' && 'text-align:'+switcher_horizontal_position)+'}';
     } else {
         widget_css += '.gt_float_switcher .gt_options{position:relative;z-index:777;max-height:250px;overflow-y:auto;transform:translateY(-30px);opacity:0;cursor:pointer;transition:all .8s cubic-bezier(.3,1.1,.4,1.1)}';
-        widget_css += '.gt_float_switcher .gt_options a{display:block;text-decoration:none;padding:'+(flag_style=='3d'?6:10)+'px 15px;color:#444;transition:color .4s linear}';
+        widget_css += '.gt_float_switcher .gt_options a{display:block;text-decoration:none;padding:'+(flag_style=='3d'?6:10)+'px 15px;color:#7d7d7d;transition:color .4s linear}';
         widget_css += '.gt_float_switcher .gt-selected{position:relative;z-index:888;background-color:#000000;cursor:pointer;text-transform:uppercase;overflow:hidden;'+(switcher_horizontal_position != 'inline' && 'text-align:'+switcher_horizontal_position)+'}';
     }
     widget_css += '.gt_float_switcher .gt_options.gt-open{opacity:1;transform:translateX(0px)}';
