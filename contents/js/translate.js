@@ -31,28 +31,6 @@
     flags_location += (flag_style=='3d'?32:'svg')+'/';
     var flag_ext = flag_style=='3d'?'.png':'.svg';
 
-    // helper functions
-    function get_flag_src(lang) {
-        if(!alt_flags[lang])
-            return flags_location+lang+flag_ext;
-        else if(alt_flags[lang] == 'usa')
-            return flags_location+'en-us'+flag_ext;
-        else if(alt_flags[lang] == 'canada')
-            return flags_location+'en-ca'+flag_ext;
-        else if(alt_flags[lang] == 'brazil')
-            return flags_location+'pt-br'+flag_ext;
-        else if(alt_flags[lang] == 'mexico')
-            return flags_location+'es-mx'+flag_ext;
-        else if(alt_flags[lang] == 'argentina')
-            return flags_location+'es-ar'+flag_ext;
-        else if(alt_flags[lang] == 'colombia')
-            return flags_location+'es-co'+flag_ext;
-        else if(alt_flags[lang] == 'quebec')
-            return flags_location+'fr-qc'+flag_ext;
-        else
-            return alt_flags[lang];
-    }
-
     function get_lang_href(lang) {
         var href = '#';
 
