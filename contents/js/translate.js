@@ -115,7 +115,7 @@
     widget_css += '.gt_float_switcher .gt_options::-webkit-scrollbar-thumb{background-color:#888}';
     widget_css += '.gt_float_switcher .gt_options a:hover{background:#6070a0;color:#000}';
     widget_css += '.gt_float_switcher .gt_options a.gt-current{display:none}';
-    widget_css += '.gt_float_switcher .gt-selected .gt-current-lang{padding:'+(flag_style=='3d'?6:10)+'px 15px;color:#f7970c;font-weight:bold}';
+    widget_css += '.gt_float_switcher .gt-selected .gt-current-lang{padding:'+(flag_style=='3d'?6:10)+'px 15px;color:#333;font-weight:bold}';
     widget_css += '.gt_float_switcher .gt-selected .gt-current-lang span.gt-lang-code{position:relative;top:2px}';
 
     var arr_angle = (float_switcher_open_direction == 'left'||float_switcher_open_direction == 'right')?90:0;
@@ -135,6 +135,10 @@
         el_a.classList.add('nturl');
         current_lang == lang && el_a.classList.add('gt-current');
         el_a.setAttribute('data-gt-lang', lang);
+
+        var el_img = document.createElement('img');
+        el_img.setAttribute('data-gt-lazy-src', get_flag_src(lang));
+        el_img.alt = lang;
 
         el_a.appendChild(el_img);
         el_a.innerHTML += ' ' + lang_array[lang];
