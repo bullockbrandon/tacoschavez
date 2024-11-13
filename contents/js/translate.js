@@ -60,7 +60,7 @@
         widget_css += "font font{background-color:transparent!important;box-shadow:none!important;position:initial!important}";
     }
 
-    widget_css += '.gt_float_switcher{font-family:Arial;font-size:20px;border-radius:2px;color:#555;display:inline-block;line-height:20px;box-shadow:rgba(0,0,0,0.15) 0 5px 15px;background:#eee;overflow:hidden;transition:all .5s cubic-bezier(0.4, 0, 1, 1)}';
+    widget_css += '.gt_float_switcher{font-family:Arial;font-size:20px;border-radius:2px;color:#555;display:inline-block;line-height:20px;box-shadow:rgba(0,0,0,0.15) 0 5px 15px;background:#000;overflow:hidden;transition:all .5s cubic-bezier(0.4, 0, 1, 1)}';
     widget_css += '.gt_float_switcher img{vertical-align:middle;display:inline-block;width:33px;height:auto;margin:0 5px 0 0;border-radius:3px}';
     if(float_switcher_open_direction == 'left' || float_switcher_open_direction == 'right') {
         var max_width = 0.7 * window.innerWidth - 120;
@@ -74,18 +74,18 @@
         // todo: optimize
         widget_css += '.gt_float_switcher .gt_options{position:relative;z-index:777;white-space:nowrap;float:'+float_switcher_open_direction+';max-width:'+max_width+';overflow:hidden;transform:translateX(-'+window.innerWidth+'px);opacity:0;cursor:pointer;transition:all .8s cubic-bezier(.3,1.1,.4,1.1)}';
         widget_css += '.gt_float_switcher .gt_options a{display:inline-block;text-decoration:none;padding:'+'px 15px;color:#444;transition:color .4s linear}';
-        widget_css += '.gt_float_switcher .gt-selected{position:relative;z-index:888;background-color:#eee;float:left;cursor:pointer;text-transform:uppercase;overflow:hidden;'+(switcher_horizontal_position != 'inline' && 'text-align:'+switcher_horizontal_position)+'}';
+        widget_css += '.gt_float_switcher .gt-selected{position:relative;z-index:888;background-color:#000;float:left;cursor:pointer;text-transform:uppercase;overflow:hidden;'+(switcher_horizontal_position != 'inline' && 'text-align:'+switcher_horizontal_position)+'}';
     } else {
         widget_css += '.gt_float_switcher .gt_options{position:relative;z-index:777;max-height:250px;overflow-y:auto;transform:translateY(-30px);opacity:0;cursor:pointer;transition:all .8s cubic-bezier(.3,1.1,.4,1.1)}';
         widget_css += '.gt_float_switcher .gt_options a{display:block;text-decoration:none;padding:'+'px 15px;color:#444;transition:color .4s linear}';
-        widget_css += '.gt_float_switcher .gt-selected{position:relative;z-index:888;background-color:#eee;cursor:pointer;text-transform:uppercase;overflow:hidden;'+(switcher_horizontal_position != 'inline' && 'text-align:'+switcher_horizontal_position)+'}';
+        widget_css += '.gt_float_switcher .gt-selected{position:relative;z-index:888;background-color:#000;cursor:pointer;text-transform:uppercase;overflow:hidden;'+(switcher_horizontal_position != 'inline' && 'text-align:'+switcher_horizontal_position)+'}';
     }
     widget_css += '.gt_float_switcher .gt_options.gt-open{opacity:1;transform:translateX(0px)}';
 
     widget_css += '.gt_float_switcher .gt_options::-webkit-scrollbar-track{background-color:#f5f5f5}';
     widget_css += '.gt_float_switcher .gt_options::-webkit-scrollbar{width:5px}';
     widget_css += '.gt_float_switcher .gt_options::-webkit-scrollbar-thumb{background-color:#888}';
-    widget_css += '.gt_float_switcher .gt_options a:hover{background:#6070a0;color:#eee}';
+    widget_css += '.gt_float_switcher .gt_options a:hover{background:#6070a0;color:#000}';
     widget_css += '.gt_float_switcher .gt_options a.gt-current{display:none}';
     widget_css += '.gt_float_switcher .gt-selected .gt-current-lang{padding:'+'px 15px;color:#333;font-weight:bold}';
     widget_css += '.gt_float_switcher .gt-selected .gt-current-lang span.gt-lang-code{position:relative;top:2px}';
