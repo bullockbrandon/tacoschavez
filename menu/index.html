@@ -80,6 +80,16 @@
     <script src="https://tacoschavezhtx.com/contents/js/media/wp-mediaelement.min.js"></script>
     <script src="https://tacoschavezhtx.com/contents/js/avia-footer-scripts.js"></script>
     <script src="https://cdn.gtranslate.net/widgets/latest/ln.js" defer></script>
+    <script>function doGTranslate(lang_pair) {
+        if (lang_pair) {
+            var lang_code = lang_pair.split('|')[0];
+            var url = window.location.href;
+            if (url.indexOf("?lang=" + lang_code) == -1) {
+                window.location.href = url + "?lang=" + lang_code;
+            }
+        }
+    }
+    </script>
 
     <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,"detect_browser_language":true,"languages":["en","es"],"wrapper_selector":".gtranslate_wrapper"}</script>
 
@@ -120,7 +130,9 @@
                                         <div class='avia_mega_div avia_mega1 three units'>
                                             <ul class="sub-menu">
                                                 <li id="menu-item-114517" class="menu-item menu-item-type-custom menu-item-object-custom avia_mega_menu_columns_1 three units avia_mega_menu_columns_last avia_mega_menu_columns_first">
-                                                    <span class='mega_menu_title heading-color av-special-font'><a href='https://order.online/store/tacos-chavez-cypress-27930992/?hideModal=true&pickup=true&rwg_token=AJKvS9Vk1rqi6MaNuoV26TWhQjsoYbeLwhkS40QvIS7Q7CoXJnCpB--i1ltqBN5AWKUxZ7UcOPBNtm6GFgWi6heV_k4lmt0TiQ==&utm_source=gfo'>Order Online</a></span>
+                                                    <span class='mega_menu_title heading-color av-special-font'>
+                                                        <a href='https://order.online/store/tacos-chavez-cypress-27930992/?hideModal=true&pickup=true&rwg_token=AJKvS9Vk1rqi6MaNuoV26TWhQjsoYbeLwhkS40QvIS7Q7CoXJnCpB--i1ltqBN5AWKUxZ7UcOPBNtm6GFgWi6heV_k4lmt0TiQ==&utm_source=gfo'>Order Online</a>
+                                                    </span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -131,8 +143,8 @@
                                             <span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span>
                                         </a>
                                     </li>
-                                    <li id="menu-item-1659" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-4">
-                                        <a href="" itemprop="url">
+                                    <li id="menu-item-2279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-mega-parent menu-item-top-level menu-item-top-level-3">
+                                        <a href="#" itemprop="url">
                                             <span class="avia-bullet"></span><span class="avia-menu-text">Translate</span>
                                             <span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span>
                                         </a>
@@ -140,7 +152,7 @@
                                             <ul class="sub-menu">
                                                 <li id="menu-item-114517" class="menu-item menu-item-type-custom menu-item-object-custom avia_mega_menu_columns_1 three units avia_mega_menu_columns_last avia_mega_menu_columns_first">
                                                     <span class='mega_menu_title heading-color av-special-font'>
-                                                        <div class="gtranslate_wrapper"></div>
+                                                        <a class="gtranslate_wrapper" href='javascript:void(0);'></a>
                                                     </span>
                                                 </li>
                                             </ul>
@@ -554,6 +566,7 @@
                 </div>
             </div>
         </div>
+
     </div>
 </div>
 
