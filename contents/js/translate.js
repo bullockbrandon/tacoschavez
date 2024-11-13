@@ -8,9 +8,6 @@
 
     var default_language = gt.default_language||'auto';
     var languages = gt.languages||Object.keys(lang_array_english);
-    var alt_flags = gt.alt_flags||{};
-    var flag_style = gt.flag_style||'2d';
-    var flags_location = gt.flags_location||'https://cdn.gtranslate.net/flags/';
     var url_structure = gt.url_structure||'none';
     var custom_domains = gt.custom_domains||{};
     var switcher_horizontal_position = gt.switcher_horizontal_position||'left';
@@ -27,9 +24,6 @@
 
     var widget_code = '<!-- GTranslate: https://gtranslate.com -->';
     var widget_css = custom_css;
-
-    flags_location += (flag_style=='3d'?32:'svg')+'/';
-    var flag_ext = flag_style=='3d'?'.png':'.svg';
 
     function get_lang_href(lang) {
         var href = '#';
@@ -79,11 +73,11 @@
 
         // todo: optimize
         widget_css += '.gt_float_switcher .gt_options{position:relative;z-index:777;white-space:nowrap;float:'+float_switcher_open_direction+';max-width:'+max_width+';overflow:hidden;transform:translateX(-'+window.innerWidth+'px);opacity:0;cursor:pointer;transition:all .8s cubic-bezier(.3,1.1,.4,1.1)}';
-        widget_css += '.gt_float_switcher .gt_options a{display:inline-block;text-decoration:none;padding:'+(flag_style=='3d'?6:10)+'px 15px;color:#444;transition:color .4s linear}';
+        widget_css += '.gt_float_switcher .gt_options a{display:inline-block;text-decoration:none;padding:'+'px 15px;color:#444;transition:color .4s linear}';
         widget_css += '.gt_float_switcher .gt-selected{position:relative;z-index:888;background-color:#eee;float:left;cursor:pointer;text-transform:uppercase;overflow:hidden;'+(switcher_horizontal_position != 'inline' && 'text-align:'+switcher_horizontal_position)+'}';
     } else {
         widget_css += '.gt_float_switcher .gt_options{position:relative;z-index:777;max-height:250px;overflow-y:auto;transform:translateY(-30px);opacity:0;cursor:pointer;transition:all .8s cubic-bezier(.3,1.1,.4,1.1)}';
-        widget_css += '.gt_float_switcher .gt_options a{display:block;text-decoration:none;padding:'+(flag_style=='3d'?6:10)+'px 15px;color:#444;transition:color .4s linear}';
+        widget_css += '.gt_float_switcher .gt_options a{display:block;text-decoration:none;padding:'+'px 15px;color:#444;transition:color .4s linear}';
         widget_css += '.gt_float_switcher .gt-selected{position:relative;z-index:888;background-color:#eee;cursor:pointer;text-transform:uppercase;overflow:hidden;'+(switcher_horizontal_position != 'inline' && 'text-align:'+switcher_horizontal_position)+'}';
     }
     widget_css += '.gt_float_switcher .gt_options.gt-open{opacity:1;transform:translateX(0px)}';
@@ -93,7 +87,7 @@
     widget_css += '.gt_float_switcher .gt_options::-webkit-scrollbar-thumb{background-color:#888}';
     widget_css += '.gt_float_switcher .gt_options a:hover{background:#6070a0;color:#eee}';
     widget_css += '.gt_float_switcher .gt_options a.gt-current{display:none}';
-    widget_css += '.gt_float_switcher .gt-selected .gt-current-lang{padding:'+(flag_style=='3d'?6:10)+'px 15px;color:#333;font-weight:bold}';
+    widget_css += '.gt_float_switcher .gt-selected .gt-current-lang{padding:'+'px 15px;color:#333;font-weight:bold}';
     widget_css += '.gt_float_switcher .gt-selected .gt-current-lang span.gt-lang-code{position:relative;top:2px}';
 
     var arr_angle = (float_switcher_open_direction == 'left'||float_switcher_open_direction == 'right')?90:0;
@@ -105,7 +99,7 @@
     else
         widget_code += '<div id="gt_float_wrapper" style="position:fixed;'+switcher_vertical_position+':20px;'+switcher_horizontal_position+':20px;z-index:999999;"><div class="gt_float_switcher notranslate" style="opacity:0">';
 
-    var gt_current_div = '<div class="gt-selected"><div class="gt-current-lang"><img src="'+get_flag_src(current_lang)+'" alt="'+current_lang+'"> <span class="gt-lang-code">'+current_lang+'</span> <span class="gt_float_switcher-arrow"></span></div></div>';
+    var gt_current_div = '<div class="gt-selected"><div class="gt-current-lang"><img src="'+'" alt="'+current_lang+'"> <span class="gt-lang-code">'+current_lang+'</span> <span class="gt_float_switcher-arrow"></span></div></div>';
     var gt_options_div = '<div class="gt_options" style="display:none">';
     languages.forEach(function(lang) {
         var el_a = document.createElement('a');
