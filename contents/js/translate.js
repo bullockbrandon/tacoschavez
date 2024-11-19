@@ -115,7 +115,7 @@
     widget_css += '.gt_float_switcher .gt_options::-webkit-scrollbar-thumb{background-color:#888}';
     widget_css += '.gt_float_switcher .gt_options a:hover{background:#6070a0;color: #000}';
     widget_css += '.gt_float_switcher .gt_options a.gt-current{display:none}';
-    widget_css += '.gt_float_switcher .gt-selected .gt-current-lang{padding:px 15px;color: #e1e1e1;font-weight:bold}';
+    widget_css += '.gt_float_switcher .gt-selected .gt-current-lang{padding:'+(flag_style=='3d'?6:10)+'px 15px;color: #e1e1e1;font-weight:bold}';
     widget_css += '.gt_float_switcher .gt-selected .gt-current-lang span.gt-lang-code{position:relative;top:2px}';
 
     var arr_angle = (float_switcher_open_direction == 'left'||float_switcher_open_direction == 'right')?90:0;
@@ -127,7 +127,7 @@
     else
         widget_code += '<div id="gt_float_wrapper" style="position:fixed;'+switcher_vertical_position+':20px;'+switcher_horizontal_position+':20px;z-index:999999;"><div class="gt_float_switcher notranslate" style="opacity:0">';
 
-    var gt_current_div = '<div class="gt-selected"><div class="gt-current-lang"><img src="'+get_flag_src(current_lang)+'" alt="'+current_lang+'"> <span class="gt-lang-code">'+current_lang+'</span> <span class="gt_float_switcher-arrow"></span></div></div>';
+    var gt_current_div = '<div class="gt-selected"><div class="gt-current-lang"> <span class="gt-lang-code">'+current_lang+'</span> <span class="gt_float_switcher-arrow"></span></div></div>';
     var gt_options_div = '<div class="gt_options" style="display:none">';
     languages.forEach(function(lang) {
         var el_a = document.createElement('a');
