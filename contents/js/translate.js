@@ -113,7 +113,7 @@
     widget_css += '.gt_float_switcher .gt_options::-webkit-scrollbar-track{background-color:#f5f5f5}';
     widget_css += '.gt_float_switcher .gt_options::-webkit-scrollbar{width:5px}';
     widget_css += '.gt_float_switcher .gt_options::-webkit-scrollbar-thumb{background-color:#888}';
-    widget_css += '.gt_float_switcher .gt_options a:hover{background:#6070a0;color: #000}';
+    widget_css += '.gt_float_switcher .gt_options a:hover{background:#f7970c;color: #000}';
     widget_css += '.gt_float_switcher .gt_options a.gt-current{display:none}';
     widget_css += '.gt_float_switcher .gt-selected .gt-current-lang{padding:'+(flag_style=='3d'?6:10)+'px 15px;color: #e1e1e1;font-weight:bold}';
     widget_css += '.gt_float_switcher .gt-selected .gt-current-lang span.gt-lang-code{position:relative;top:2px}';
