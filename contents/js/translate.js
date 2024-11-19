@@ -127,7 +127,7 @@
     else
         widget_code += '<div id="gt_float_wrapper" style="position:fixed;'+switcher_vertical_position+':20px;'+switcher_horizontal_position+':20px;z-index:999999;"><div class="gt_float_switcher notranslate" style="opacity:0">';
 
-    var gt_current_div = '<div class="gt-selected"><div class="gt-current-lang"> <span class="gt-lang-code">'+current_lang+'</span> <span class="gt_float_switcher-arrow"></span></div></div>';
+    var gt_current_div = '<div class="gt-selected"><div class="gt-current-lang"><img src="" alt="'+current_lang+'"> <span class="gt-lang-code">'+current_lang+'</span> <span class="gt_float_switcher-arrow"></span></div></div>';
     var gt_options_div = '<div class="gt_options" style="display:none">';
     languages.forEach(function(lang) {
         var el_a = document.createElement('a');
