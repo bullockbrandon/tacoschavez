@@ -206,7 +206,7 @@
     }
     function gt_update_float_language(el){
         var lang=el.getAttribute('data-gt-lang');
-        var img_src=el.parentNode.querySelector('a[data-gt-lang="'+lang+'"] img').getAttribute('src');
+        //var img_src=el.parentNode.querySelector('a[data-gt-lang="'+lang+'"] img').getAttribute('src');
         setTimeout(function(){el.parentNode.querySelector('a.gt-current').classList.remove('gt-current');el.classList.add('gt-current');},400);
         //el.parentNode.parentNode.querySelector('.gt-selected img').setAttribute('src',img_src);
         el.parentNode.parentNode.querySelector('.gt-selected span.gt-lang-code').innerText=lang;
