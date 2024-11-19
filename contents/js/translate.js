@@ -136,11 +136,6 @@
         current_lang == lang && el_a.classList.add('gt-current');
         el_a.setAttribute('data-gt-lang', lang);
 
-        var el_img = document.createElement('img');
-        el_img.setAttribute('data-gt-lazy-src', lang);
-        el_img.alt = lang;
-
-        el_a.appendChild(el_img);
         el_a.innerHTML += ' ' + lang_array[lang];
 
         gt_options_div += el_a.outerHTML;
