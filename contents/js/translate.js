@@ -127,7 +127,7 @@
     else
         widget_code += '<div id="gt_float_wrapper" style="position:fixed;'+switcher_vertical_position+':20px;'+switcher_horizontal_position+':20px;z-index:999999;"><div class="gt_float_switcher notranslate" style="opacity:0">';
 
-    var gt_current_div = '<div class="gt-selected"><div class="gt-current-lang"><img src="'+get_flag_src(current_lang)+'" alt="'+current_lang+'"> <span class="gt-lang-code">'+current_lang+'</span> <span class="gt_float_switcher-arrow"></span></div></div>';
+    var gt_current_div = '<div class="gt-selected"><div class="gt-current-lang"> <span class="gt-lang-code">'+current_lang+'</span> <span class="gt_float_switcher-arrow"></span></div></div>';
     var gt_options_div = '<div class="gt_options" style="display:none">';
     languages.forEach(function(lang) {
         var el_a = document.createElement('a');
@@ -136,11 +136,6 @@
         current_lang == lang && el_a.classList.add('gt-current');
         el_a.setAttribute('data-gt-lang', lang);
 
-        var el_img = document.createElement('img');
-        el_img.setAttribute('data-gt-lazy-src', get_flag_src(lang));
-        el_img.alt = lang;
-
-        el_a.appendChild(el_img);
         el_a.innerHTML += ' ' + lang_array[lang];
 
         gt_options_div += el_a.outerHTML;
@@ -213,7 +208,7 @@
         var lang=el.getAttribute('data-gt-lang');
         var img_src=el.parentNode.querySelector('a[data-gt-lang="'+lang+'"] img').getAttribute('src');
         setTimeout(function(){el.parentNode.querySelector('a.gt-current').classList.remove('gt-current');el.classList.add('gt-current');},400);
-        el.parentNode.parentNode.querySelector('.gt-selected img').setAttribute('src',img_src);
+        //el.parentNode.parentNode.querySelector('.gt-selected img').setAttribute('src',img_src);
         el.parentNode.parentNode.querySelector('.gt-selected span.gt-lang-code').innerText=lang;
         gt_hide_float_switcher();
     }
